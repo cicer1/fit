@@ -2,6 +2,8 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script src="lib/jquery.js"></script>
+    <script src="js/ajaxCall.js"></script>
   </head>
   <body>
     <div class="container padded">
@@ -11,17 +13,17 @@
         <div class="social"></div>
         <nav>
           <ul>
-            <li><a href="#"><div>HOME</div></a></li>
-            <li><a href="#"><div>ABOUT US</div></a></li>
-            <li><a href="#"><div>BRANDS</div></a></li>
-            <li><a href="#"><div>GALLERY</div></a></li>
-            <li><a href="#"><div>NEWS</div></a></li>
-            <li><a href="#"><div>CONTACTS</div></a></li>
+            <li><a id="aj-home" href="#"><div>HOME</div></a></li>
+            <li><a id="aj-about" href="#"><div>ABOUT US</div></a></li>
+            <li><a id="aj-brands" href="#"><div>BRANDS</div></a></li>
+            <li><a id="aj-gallery" href="#"><div>GALLERY</div></a></li>
+            <li><a id="aj-news" href="#"><div>NEWS</div></a></li>
+            <li><a id="aj-contacts" href="#"><div>CONTACTS</div></a></li>
           </ul>
         </nav>
       </div>
       </header>
-      <div class="content"></div>
+      <div id="myajaxcont" class="content"></div>
     </div>
     <footer class="padded">
     <div class="first">

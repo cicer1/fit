@@ -1,0 +1,37 @@
+$(document).ready(function(){
+
+  $.ajax({url:"pages/home.html",success:function(result){
+    $("#myajaxcont").html(result);
+  }});
+
+  $("#aj-home").click(function(){
+    $.ajax({url:"pages/home.html",success:function(result){
+      $("#myajaxcont").html(result);
+    }});
+  });
+  $("#aj-about").click(function(){
+    $.ajax({url:"pages/about.html",success:function(result){
+      $("#myajaxcont").html(result);
+    }});
+  });
+  $("#aj-brands").click(function(){
+    $.ajax({url:"pages/brands.html",success:function(result){
+      $("#myajaxcont").html(result);
+    }});
+  });
+  $("#aj-gallery").click(function(){
+    $.ajax({url:"pages/gallery.html",success:function(result){
+      $("#myajaxcont").html(result);
+    }});
+  });
+  $("#aj-news").click(function(){
+    $.ajax({url:"pages/news.html",success:function(result){
+      $("#myajaxcont").html(result);
+    }});
+  });
+  $("#aj-contacts").click(function(){
+    $.ajax({url:"pages/contacts.html",success:function(result){
+      $("#myajaxcont").html(result);
+    }});
+  });
+});
