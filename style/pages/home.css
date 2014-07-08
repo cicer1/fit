@@ -1,0 +1,45 @@
+.content .arrivals{
+  padding: 20px 0;
+  height: 45%;
+  border-bottom: 3px solid grey;
+}
+.content .arrivals > div{
+  height: 100%;
+  float: left;
+}
+.content .arrivals .left-arrow,.right-arrow{
+  width: 10%;
+}
+.content .arrivals .product{
+  width: 80%;
+}
+
+
+.content .whoweare{
+  padding: 20px 0;
+  height: 30%;
+  border-bottom: 2px solid black;
+}
+.content .whoweare > div{
+  height: 100%;
+  float: left;
+}
+.content .whoweare .spry{
+  width: 30%;
+}
+.content .whoweare .text-we-are{
+  width: 40%;
+  padding: 0 15px;
+  font-size: 22px;
+}
+
+.content .somebrands{
+  padding: 20px 0;
+  height: 25%;
+}
+
+.home-subtitle{
+  position: absolute;
+  font-size: 35px;
+  max-height: 50px;
+}
