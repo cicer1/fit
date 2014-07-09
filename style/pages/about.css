@@ -26,4 +26,11 @@
 .content .bigpic{
   width: 100%;
   height: 66%;
+  overflow: hidden;
+  text-align: center;
+
+}
+.content .bigpic img{
+  position: relative;
+  top: -97px;
 }

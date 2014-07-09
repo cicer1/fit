@@ -14,5 +14,18 @@
   float: left;
   height: 25%;
   width: 25%;
-  border:1px solid black;
+  text-align: center;
+}
+.content .brands-grid ul li img{
+  height: 100px;
+  position: relative;
+  top: 20px;
+  max-width: 186px;
+}
+
+.scale9{
+  -moz-transform:scale(0.8) ;
+  -webkit-transform:scale(0.8) ;
+  -o-transform:scale(0.8);
+  -ms-transform:scale(0.8);
 }

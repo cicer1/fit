@@ -16,3 +16,6 @@
   font-size:25px;
   line-height:29px;
 }
+.content .news-grid .news > div img{
+  height: 100%;
+}

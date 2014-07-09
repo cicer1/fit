@@ -1,11 +1,22 @@
 <div class="box arrivals">
   <div class="home-subtitle">NEW ARRIVALS</div>
   <div class="left-arrow">
-    <img id="changeProductLess" src="../fit/img/next15.svg">
+    <img onclick="leftArrow()" id="changeProductLess" src="../fit/img/next15.svg">
   </div>
-  <div class="product"></div>
+  <div data-n="1" id="first-product" class="product">
+    <div class="img-container"><img src="../fit/img/prod/prod1.jpg"></div>
+    <div class="product-description">GOURMET The 35 Lite LX</div>
+  </div>
+  <div data-n="2" id="second-product" class="product">
+    <div class="img-container"><img src="../fit/img/prod/scarpa_slider02.jpg"></div>
+    <div class="product-description">NIKE SB Janoski Floral Black</div>
+  </div>
+  <div data-n="3" id="third-product" class="product">
+    <div class="img-container"><img src="../fit/img/prod/scarpa_slider03.jpg"></div>
+    <div class="product-description">NIKE Air Odyssey</div>
+  </div>
   <div class="right-arrow">
-    <img id="changeProductPlus" src="../fit/img/next15.svg">
+    <img onclick="rightArrow()" id="changeProductPlus" src="../fit/img/next15.svg">
   </div>
 </div>
 <div class="box whoweare">
@@ -20,4 +31,11 @@
 </div>
 <div class="box somebrands">
   <div class="home-subtitle">SOME OF OUR BRANDS</div>
+  <ul>
+    <li><img class="scale9" src="../fit/img/brands/vans.png"></li>
+    <li><img class="scale9"src="../fit/img/brands/nikesb.png"></li>
+    <li><img class="scale9"src="../fit/img/brands/cheapmonday.png"></li>
+    <li><img src="../fit/img/brands/diamond.png"></li>
+    <li><img src="../fit/img/brands/neff.png"></li>
+  </ul>
 </div>

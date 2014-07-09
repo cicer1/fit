@@ -53,16 +53,45 @@ header > div.second nav ul li{
   width: 16.666667%;
   line-height: 46px;
 }
+header > div.second nav ul li:last-child{
+  height: 120%;
+}
 header > div.second nav ul li div{
   margin: 0px 30px 10px 30px;
   min-width: 80px;
 }
+header > div.second nav ul li div.subelement{
+  margin: -5px 30px 10px 30px;
+  min-width: 80px;
+  max-height: 40px;
+}
 header > div.second nav ul li div.active{
   background-color: black;
   color: white;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  border-radius: 10%;
 }
 
 header > div.second nav ul li div:hover{
   background-color: black;
   color: white;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  border-radius: 10%;
+}
+#aj-news{
+  cursor: default !important;
+}
+#aj-events{
+  float:left;
+  display: none;
+}
+#aj-sales{
+  float:left;
+  display: none;
+}
+header > div.second nav ul li div.subelement:hover{
+  background-color: rgba(25,25,25,0.1);
+  color: black;
 }

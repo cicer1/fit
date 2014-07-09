@@ -2,6 +2,15 @@ $(document).ready(function(){
 
   $.ajax({url:"pages/home.html",success:function(result){
     $("#myajaxcont").html(result).fadeIn('fast');
+    $("header > div.second nav ul li:last-child").mouseenter(function() {
+      $("#aj-events").show();
+      $("#aj-sales").show();
+    });
+    $("header > div.second nav ul li:last-child").mouseleave(function() {
+      $("#aj-events").hide();
+      $("#aj-sales").hide();
+    });
+    $("#first-product").css("display",'block').addClass('visibleProduct');
   }});
 
   $("#aj-home").click(function(){
@@ -10,6 +19,7 @@ $(document).ready(function(){
       $("#aj-home > div").addClass("active");
       $("#myajaxcont").css( "display", "none");
       $("#myajaxcont").html(result).fadeIn('fast');
+      $("#first-product").css("display",'block').addClass('visibleProduct');
     }});
   });
   $("#aj-about").click(function(){
@@ -36,8 +46,16 @@ $(document).ready(function(){
       $("#myajaxcont").html(result).fadeIn('fast');
     }});
   });
-  $("#aj-news").click(function(){
-    $.ajax({url:"pages/news.html",success:function(result){
+  $("#aj-events").click(function(){
+    $.ajax({url:"pages/events.html",success:function(result){
+      removeActive();
+      $("#aj-news > div").addClass("active");
+      $("#myajaxcont").css( "display", "none");
+      $("#myajaxcont").html(result).fadeIn('fast');
+    }});
+  });
+  $("#aj-sales").click(function(){
+    $.ajax({url:"pages/sales.html",success:function(result){
       removeActive();
       $("#aj-news > div").addClass("active");
       $("#myajaxcont").css( "display", "none");

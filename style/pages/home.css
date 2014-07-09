@@ -7,30 +7,39 @@
   height: 100%;
   float: left;
 }
+.content .arrivals .product{
+  text-align: center;
+  display: none;
+}
+.content .arrivals .product .img-container{
+  height: 80%;
+}
+.content .arrivals .product .img-container img{
+  height: 95%;
+}
+.content .arrivals .product .product-description{
+  height: 20%;
+  font-size: 28px;
+}
 .content .arrivals .left-arrow,.right-arrow{
   width: 10%;
+  height: 50% !important;
+  position: relative;
+  top: 100px;
 }
 .content .arrivals .right-arrow img{
-  top: 140px;
   height: 42px;
-  position: relative;
   float: right;
-  -moz-transform:translateY(-50%) ;
-  -webkit-transform:translateY(-50%) ;
-  -o-transform:translateY(-50%) ;
-  -ms-transform:translateY(-50%) ;
   cursor: pointer;
 
 }
 .content .arrivals .left-arrow img{
-  top: 140px;
   height: 42px;
-  position: relative;
-  -moz-transform:translateY(-50%) rotate(180deg);
-  -webkit-transform:translateY(-50%) rotate(180deg);
-  -o-transform:translateY(-50%) rotate(180deg);
-  -ms-transform:translateY(-50%) rotate(180deg);
   cursor: pointer;
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  -o-transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
 }
 .content .arrivals .product{
   width: 80%;
@@ -68,7 +77,7 @@
 }
 .content .whoweare .text-we-are{
   width: 40%;
-  padding: 0 15px;
+  padding: 1% 15px;
   font-size: 22px;
   text-align:justify;
   text-justify:inter-word;
@@ -77,6 +86,26 @@
 .content .somebrands{
   padding: 20px 0;
   height: 25%;
+}
+.content .somebrands ul{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.content .somebrands ul li{
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  width: 20%;
+  text-align: center;
+}
+.content .somebrands ul li img{
+  height: 100px;
+  position: relative;
+  top: 20px;
+  max-width: 186px;
 }
 
 .home-subtitle{
