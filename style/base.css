@@ -24,3 +24,11 @@ body{
 .box{
   box-sizing: border-box;
 }
+
+.content .menuactive .icon img{
+  width: 82px;
+}
+
+#myajaxcont{
+  display: none
+}

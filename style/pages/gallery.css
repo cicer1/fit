@@ -3,3 +3,15 @@
   height: 83%;
   padding: 20px 0;
 }
+.content .gallery-grid ul{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+.content .gallery-grid ul li{
+  box-sizing: border-box;
+  float: left;
+  height: 33.333%;
+  width: 33.333%;
+  border:1px solid black;
+}

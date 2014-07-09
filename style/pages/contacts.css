@@ -3,3 +3,12 @@
   height: 83%;
   padding: 20px 0;
 }
+.content .contacts-grid > div{
+  padding: 10px 0;
+  height: 50%;
+  font-size:22px;
+  line-height:29px;
+}
+.content .contacts-grid > div:last-child{
+  background-color: purple;
+}

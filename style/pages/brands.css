@@ -3,3 +3,16 @@
   height: 83%;
   padding: 20px 0;
 }
+.content .brands-grid ul{
+  box-sizing: border-box;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+.content .brands-grid ul li{
+  box-sizing: border-box;
+  float: left;
+  height: 25%;
+  width: 25%;
+  border:1px solid black;
+}

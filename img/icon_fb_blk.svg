@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_fb_blk</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="100" height="100"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon_fb_blk" sketch:type="MSLayerGroup">
+            <g id="Clipped">
+                <mask id="mask-2" sketch:name="SVGID_1_" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="SVGID_1_"></g>
+                <path d="M60.7,49.7 L53.8,49.7 L53.8,74.7 L43.5,74.7 L43.5,49.7 L38.5,49.7 L38.5,41 L43.5,41 L43.5,35.4 C43.5,31.3 45.4,24.8 54.1,24.8 L61.9,24.8 L61.9,33.2 L56.3,33.2 C55.4,33.2 54.1,33.5 54.1,35.7 L54.1,41 L61.9,41 L60.7,49.7 L60.7,49.7 Z M50.1,-0.3 C22.6,-0.3 0.1,22.2 0.1,49.7 C0.1,77.2 22.6,99.7 50.1,99.7 C77.6,99.7 100.1,77.2 100.1,49.7 C100.1,21.9 77.6,-0.3 50.1,-0.3 L50.1,-0.3 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
+    <title>icona_gallery</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icona_gallery" sketch:type="MSLayerGroup">
+            <rect id="Rectangle-path" fill="#000000" sketch:type="MSShapeGroup" x="0" y="0" width="150" height="150"></rect>
+            <path d="M74.6,64.9 C66.5,64.9 60,71.5 60,79.5 C60,87.6 66.5,94.1 74.6,94.1 C82.7,94.1 89.2,87.6 89.2,79.5 C89.2,71.4 82.7,64.9 74.6,64.9 L74.6,64.9 Z M113.6,50.2 L101.9,50.2 C100.3,50.2 98.6,49 98,47.4 L95,38.3 C94.5,36.8 92.8,35.5 91.1,35.5 L58,35.5 C56.4,35.5 54.7,36.7 54.1,38.3 L51.1,47.4 C50.6,48.9 48.9,50.2 47.2,50.2 L35.6,50.2 C30.2,50.2 25.8,54.6 25.8,60 L25.8,103.9 C25.8,109.3 30.2,113.7 35.6,113.7 L113.6,113.7 C119,113.7 123.4,109.3 123.4,103.9 L123.4,60 C123.4,54.6 119,50.2 113.6,50.2 L113.6,50.2 Z M74.6,103.9 C61.1,103.9 50.2,93 50.2,79.5 C50.2,66 61.1,55.1 74.6,55.1 C88.1,55.1 99,66 99,79.5 C99,93 88.1,103.9 74.6,103.9 L74.6,103.9 Z M110.2,66.8 C108.3,66.8 106.8,65.3 106.8,63.4 C106.8,61.5 108.3,60 110.2,60 C112.1,60 113.6,61.5 113.6,63.4 C113.6,65.3 112.1,66.8 110.2,66.8 L110.2,66.8 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

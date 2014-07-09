@@ -19,3 +19,16 @@ footer > div.second{
 }
 footer > div.third{
 }
+footer > div.third ul{
+  position: relative;
+  top: 41px;
+  float: right;
+  top: 32px;
+}
+footer > div.third ul li{
+  float: left;
+  margin: 0 0 0 20px;
+}
+footer > div.third ul li img{
+  width: 42px;
+}
