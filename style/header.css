@@ -61,7 +61,7 @@ header > div.second nav ul li div{
   min-width: 80px;
 }
 header > div.second nav ul li div.subelement{
-  margin: -5px 30px 10px 30px;
+  margin: -10px 30px 10px 30px;
   min-width: 80px;
   max-height: 40px;
 }
@@ -84,11 +84,9 @@ header > div.second nav ul li div:hover{
   cursor: default !important;
 }
 #aj-events{
-  float:left;
   display: none;
 }
 #aj-sales{
-  float:left;
   display: none;
 }
 header > div.second nav ul li div.subelement:hover{

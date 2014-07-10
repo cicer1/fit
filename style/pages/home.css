@@ -42,7 +42,8 @@
   -ms-transform:rotate(180deg);
 }
 .content .arrivals .product{
-  width: 80%;
+  width: 60%;
+  margin: 0 10%;
 }
 
 

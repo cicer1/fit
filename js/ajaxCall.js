@@ -2,13 +2,13 @@ $(document).ready(function(){
 
   $.ajax({url:"pages/home.html",success:function(result){
     $("#myajaxcont").html(result).fadeIn('fast');
-    $("header > div.second nav ul li:last-child").mouseenter(function() {
+    $("header > div.second nav ul li:nth(4)").mouseenter(function() {
       $("#aj-events").show();
       $("#aj-sales").show();
     });
-    $("header > div.second nav ul li:last-child").mouseleave(function() {
-      $("#aj-events").hide();
-      $("#aj-sales").hide();
+    $("header > div.second nav ul li:nth(4)").mouseleave(function() {
+      $("#aj-events").fadeOut("slow");
+      $("#aj-sales").fadeOut("slow");
     });
     $("#first-product").css("display",'block').addClass('visibleProduct');
   }});
