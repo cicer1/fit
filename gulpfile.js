@@ -9,9 +9,10 @@ var gulp = require('gulp'),
 // Scripts task
 // Uglifies
 gulp.task('scripts',function(){
-  gulp.src('js/*.js')
+  gulp.src('../fit/js/*.js')
   .pipe(plumber())
   .pipe(uglify())
+  .pipe(concat('application.js'))
   .pipe(gulp.dest('build/js'));
 })
 
@@ -25,7 +26,7 @@ gulp.task('styles',function(){
   }))
   .pipe(gulp.dest('css/'))
   .pipe(concat('style.css'))
-        .pipe(gulp.dest('css/'))
+  .pipe(gulp.dest('css/'))
   .pipe(livereload());
 })
 
